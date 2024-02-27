@@ -21,7 +21,7 @@ export const Login = () => {
               <p className=' text-gray-800 text-[12px] font-medium'><a href="#">RECUPERAR CONTRASEÑA</a></p>
             </div>
             <div className=' flex items-center justify-center'>
-              <button className=' bg-blue-500 w-[80px] h-10 rounded-xl border-solid border-blue-200 font-serif text-black hover:bg-blue-500 ml-6'><Link to='/Principal'>Ingresar</Link></button>
+              <button className=' bg-blue-500 w-[80px] h-10 rounded-xl border-solid border-blue-200 font-serif text-black hover:bg-blue-700 ml-6'><Link to='/Principal'>Ingresar</Link></button>
             </div>
           </div>
           </div>
