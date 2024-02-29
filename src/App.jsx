@@ -8,13 +8,13 @@ const user = [
   { 
     usuario: '32890754',
     pass: '1234',
-    log: false
+    log: true
   }
 ]
 
 function App() {
 
-  const Islog =  user.some(( usuario ) => usuario.log === true ) 
+  const Islog = user.some(( usuario ) => usuario.log === true ) 
   console.log("Valor de Islog:", Islog);
 
   return (
@@ -23,10 +23,11 @@ function App() {
         ? 
           <Routes>
             <Route path="/" element={<Principal />} />
+            <Route path='*' element={<Navigate to="/" />} />
           </Routes>
          : 
           <Routes>
-            <Route path='/' element={<Navigate to="/Login" />}/>
+            <Route path='/' element={<Navigate to="/Login" />}/> 
             <Route path="/Login" element={<Login />} />
           </Routes>
         }

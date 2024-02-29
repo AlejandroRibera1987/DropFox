@@ -3,3 +3,9 @@ main {
     background-position: center;
     background-size: cover;
 }
+
+#toggleDrop{
+    background: rgb(60,99,130);
+    background: linear-gradient(180deg, rgba(60,99,130,1) 19%, rgba(255,255,255,1) 84%);
+}
+

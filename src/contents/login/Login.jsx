@@ -4,7 +4,6 @@ import { auth } from '../../firebase/config'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 
 
-
 export const Login = () => {
   return (
     <main className=' h-screen w-screen flex justify-start items-center px-32' >
