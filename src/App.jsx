@@ -8,7 +8,7 @@ const user = [
   { 
     usuario: '32890754',
     pass: '1234',
-    log: false
+    log: true
   }
 ]
 
