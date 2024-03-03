@@ -28,7 +28,7 @@ export const Navbar = () => {
       <div className=' relative flex flex-col justify-center pr-7'>
         <button onClick={active}><FaRegUserCircle className=' text-3xl text-center text-stone-50 '/></button>
         { toggleDrop && (
-          <div id='toggleDrop' className=' flex flex-col gap-y-10 justify-center px-4 py-6 items-center absolute top-12 right-[-20px] h-auto w-[350px] rounded-bl-xl shadow-lg shadow-gray-300 bg-white'>
+          <div className=' flex flex-col gap-y-10 justify-center px-4 py-6 items-center absolute top-12 right-[-20px] h-auto w-[350px] rounded-bl-xl shadow-lg shadow-gray-300 bg-[#3c6382]'>
             <p className=' text-[18px] text-stone-50'>alejandro@hotmail.com</p>
             <div className=' w-full flex items-center justify-center'>
             < button className=' border border-black px-6 py-3 rounded-md font-serif hover:bg-red-500 ease-in duration-150'>Cerrar Sesión</button>
