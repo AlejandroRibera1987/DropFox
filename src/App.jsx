@@ -2,6 +2,7 @@ import './App.css'
 import { Principal } from './contents/principal/Principal'
 import { Login } from './contents/login/Login'
 import { Route, Routes, BrowserRouter, Link, Navigate } from 'react-router-dom'
+import { Compras } from './contents/compras/Compras'
 
 
 const user = [
