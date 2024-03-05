@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar } from '../navbar/Navbar'
 
-export const Compras = () => {
+export const Clientes = () => {
   return (
     <>
     <Navbar />
